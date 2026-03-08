@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasty Bites Restaurant</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#fff5ec;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+background:#c0392b;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:40px;
+background:url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.hero h2{
+font-size:35px;
+margin-bottom:10px;
+}
+
+/* MENU */
+
+.menu{
+padding:50px 10%;
+}
+
+.menu h2{
+text-align:center;
+margin-bottom:40px;
+color:#c0392b;
+font-size:32px;
+}
+
+/* MENU GRID */
+
+.menu-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+/* MENU ITEM */
+
+.menu-item{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.3s;
+}
+
+.menu-item:hover{
+transform:translateY(-5px);
+}
+
+.menu-item img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.menu-item h3{
+margin:15px 0 10px 0;
+}
+
+.price{
+color:#e74c3c;
+font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🍽️ Tasty Bites Restaurant</h1>
+</header>
+
+<section class="hero">
+<h2>Welcome to Our Restaurant</h2>
+<p>Delicious food made with love</p>
+</section>
+
+<section class="menu">
+
+<h2>Our</h2>
+
+<div class="menu-grid">
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+<h3>Cheese Burger</h3>
+<p class="price">₹180</p>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
+<h3>Veg Salad</h3>
+<p class="price">₹120</p>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
+<h3>Pizza</h3>
+<p class="price">₹250</p>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1551024601-bec78aea704b">
+<h3>French Fries</h3>
+<p class="price">₹90</p>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd">
+<h3>Pasta</h3>
+<p class="price">₹200</p>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87">
+<h3>Cold Coffee</h3>
+<p class="price">₹110</p>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb">
+<h3>Ice Cream</h3>
+<p class="price">₹80</p>
+</div>
+
+<div class="menu-item">
+<img src="https://images.unsplash.com/photo-1505253216365-4a4c7e1f0f2f">
+<h3>Chocolate Cake</h3>
+<p class="price">₹150</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Tasty Bites Restaurant</p>
+</footer>
+
+</body>
+</html>
